@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+
 export const mapConfig = writable({
   "title": "EU individuals using social networks",
   "subtitle": "Across the EU, around 73% of share of individuals used the internet for social networks. Ranging from 56.4% in Italy to 89.7% in Denmark, with Cyprus, Malta, Finland and the Netherlands also among the highest-ranking countries.",
@@ -428,7 +429,7 @@ export const mapConfig = writable({
   "textSource": "Eurostat (2026)",
   "textNoteAvailable": true,
   "textNoteDescription": "Note",
-  "textNote": "Following cases are visualized with this data: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.). No data available for France.",
+  "textNote": "Following cases are visualized with this data: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.).",
   "textDataAccessAvailable": true,
   "linkDataAccessDescription": "Access the data",
   "linkDataAccess": "https://ec.europa.eu/eurostat/databrowser/view/tin00127/default/table?lang=en",
@@ -441,7 +442,7 @@ export const mapConfig = writable({
     "title": "EU individuals using social networks",
     "subtitle": "Across the EU, around 73% of share of individuals used the internet for social networks. Ranging from 56.4% in Italy to 89.7% in Denmark, with Cyprus, Malta, Finland and the Netherlands also among the highest-ranking countries.",
     "textNoteDescription": "Note",
-    "textNote": "Following cases are visualized with this data: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.). No data available for France.",
+    "textNote": "Following cases are visualized with this data: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.).",
     "textSourceDescription": "Source",
     "textSource": "Eurostat (2026)",
     "linkDataAccessDescription": "Access the data",
